@@ -6,6 +6,7 @@ cubes:
       'processed' status UNION ALL select 4 as id, 500 as amount, 'processed'
       status UNION ALL select 5 as id, 600 as amount, 'shipped' status
     joins: []
+    # comment
     dimensions:
       - name: id
         sql: id
