@@ -5,6 +5,7 @@ cubes:
       as amount, 'new' status UNION ALL select 3 as id, 300 as amount,
       'processed' status UNION ALL select 4 as id, 500 as amount, 'processed'
       status UNION ALL select 5 as id, 600 as amount, 'shipped' status
+    #comment 222
     joins: []
     # comment
     dimensions:
