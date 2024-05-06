@@ -10,7 +10,7 @@ cubes:
       - name: id
         sql: id
         type: number
-        primary_key: true
+        primary_key: false
       - name: status
         sql: status
         type: string
