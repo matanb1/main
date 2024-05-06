@@ -31,6 +31,10 @@ cubes:
         sql: amount
         type: sum
 
+      - name: count_distinct
+        sql: count_distinct
+        type: count_distinct
+
     pre_aggregations:
       # Pre-aggregation definitions go here.
       # Learn more in the documentation: https://cube.dev/docs/caching/pre-aggregations/getting-started
